@@ -1,0 +1,22 @@
+#body {
+	background-color:#EDCFE7;
+	text-align:left;
+	vertical-align:top;
+        alignment-baseline:middle;
+      }      
+#style
+      {
+           
+      }
+#p
+      {
+         text-align: center;  
+      }
+#table { 
+margin:0 auto; 
+text-align: left; 
+}
+#table_vertical 
+{
+    margin-top:15%;
+}

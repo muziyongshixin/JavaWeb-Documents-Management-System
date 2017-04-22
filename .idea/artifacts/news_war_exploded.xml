@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="news:war exploded">
+    <output-path>D:/软件/tomcat8/webapps/news</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="news/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="news" />
+        </element>
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/web/WEB-INF/lib" />
+    </root>
+  </artifact>
+</component>
