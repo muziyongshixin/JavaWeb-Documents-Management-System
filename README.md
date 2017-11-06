@@ -20,3 +20,5 @@ JavaEE、JDBC、AJAX、JSP、JavaBean
 - **MySQL 5.5**
 
 ##项目的博客地址为[博客地址](http://blog.csdn.net/qq_24369113/article/details/70333980)
+
+数据库配置文件可以下载Mynews.sql文件，直接导入配置就好
