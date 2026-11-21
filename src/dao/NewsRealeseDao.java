@@ -501,15 +501,16 @@ public class NewsRealeseDao {
         Class.forName(driver);
 
 
-        String sql = "select password from " + table + " where username='" + user + "'";
+        String sql = "select password from " + table + " where username=?";
         System.out.println(sql);
         try {
             conn = DriverManager.getConnection(url, databseUser, password);//不安全
             System.out.println("建立database连接");
 
-            Statement st = conn.createStatement();
+            PreparedStatement st = conn.prepareStatement(sql);
+            st.setString(1, user);
 
-            ResultSet rs = st.executeQuery(sql);
+            ResultSet rs = st.executeQuery();
 
             while (rs.next()) {
                 if (rs.getString("password").equals(pass))
